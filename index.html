@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <style>
+    .hero{
+        height: 160px;
+        padding: 30px;
+        margin: auto;
+        box-shadow: 3px 3px 3px gray, -3px -3px 3px gray;
+    }
+    .chanel{
+      background-color: #fffcfc;
+      border: 1px solid black;
+    }
+    .img1{
+      width: 550px;
+    }
+    .chanel1{
+      margin: 70px 270px; 
+    }
+    .dior{
+      background-color: #F3F2F2;
+      border: 1px solid black;
+    }
+    .ysl{
+      background-color: #3B3939;
+    }
+    .celine{
+      background-color: #1B1B1B;
+    }
+    .footer h2{
+      border-bottom: 1px solid white;
+    }
+    .navbar{
+        position: sticky;
+        top: 0px;
+        background-color: white;
+    }
+    .brandname{
+      font-family: sa;
+    }
+  </style>
+  <body>
+    <!-- nav section start -->
+    <nav class="navbar navbar-expand-lg p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-1 fw-bold w-50 text-center" href="#">MY BAG COLLECTION</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav w-75 justify-content-center ">
+                <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button class="form-control btn btn-outline-none dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Account</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./login.html">Login</a></li>
+                      <li><a class="dropdown-item" href="./signup.html">Sign Up</a></li>
+                    </ul>
+                  </div>
+                </li>               
+             </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav section end -->
+    <!-- brand section start -->
+    <div class="brandname text-center fs-2 m-5">
+        <a href="./chanel.html" class="text-decoration-none text-black me-5">CHANEL</a>
+        <a href="./dior.html" class="text-decoration-none text-black me-5">DIOR</a>
+        <a href="./ysl.html" class="text-decoration-none text-black me-5">YSL</a>
+        <a href="./celing.html" class="text-decoration-none text-black me-5">CELINE</a>
+    </div>
+     <!-- brand section end -->
+      <!-- hero section start -->
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-12 hero bg-black text-light w-75 text-center">
+                <h3>Authentic  Brand Bags Only!</h3>
+                <h5 class="p-3">Every item is original, high-quality and ready to be yours.</h5>
+            </div>
+        </div>
+       </div>
+      <!-- hero section end -->
+      <!-- image  section start -->
+      <a href="./chanel.html" class="text-decoration-none text-black">
+        <div class="container-fluid mt-5">
+          <div class="row">
+            <div class="col-lg-12 chanel d-flex justify-content-end">
+              <div class="chanel1 p-5 w-50">
+                <h1 class="fw-bold">CHANEL</h1>
+                <h5 class="pt-3">Timeless beauty that never fades</h5>
+              </div>
+              <img src="./chanel-jennie.jpg" alt="" class="img1">            
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="./dior.html" class="text-decoration-none text-black ">
+        <div class="container-fluid mt-5">
+          <div class="row ">
+            <div class="col-lg-12 dior d-flex justify-content-end ">
+              <img src="./Dior-header-scaled.jpg" alt="" class="w-50">  
+              <div class="dior1 w-50 p-5 m-5 text-end">
+                <h1 class="pe-5 pt-4 me-5 fw-bold">DIOR</h1>
+                <h5 class="pt-3 pe-5 me-5">Soft elegance, where fashion meets art</h5>
+              </div>                      
+            </div>
+          </div>
+       </div>
+      </a>
+      <a href="./ysl.html" class="text-decoration-none ">
+        <div class="container-fluid mt-5">
+          <div class="row ">
+            <div class="col-lg-12 ysl d-flex justify-content-end ">
+              <div class="ysl1 w-50 p-5 m-5 text-light">
+                <h1 class="ps-5 pt-5 ms-5 fw-bold">SAINT LAURENT</h1>
+                <h5 class="pt-3 ps-5 ms-5">Confidence, crafted in couture</h5>                
+              </div>   
+              <img src="./ysl - rose.jpg" alt="" class="img3 w-25">                                   
+            </div>
+          </div>
+       </div>
+      </a>
+      <a href="./celing.html" class="text-decoration-none ">
+        <div class="container-fluid mt-5">
+          <div class="row ">
+            <div class="col-lg-12 celine d-flex justify-content-start ">
+              <img src="./lisa-celine.jpg" alt="" class="w-25">  
+              <div class="celine1 w-50 p-5 m-5 text-end text-light">
+                <h1 class="pe-3 pt-4 fw-bold"> CELINE</h1>
+                <h5 class="pt-3 pe-3 ">Modern style with effortless charm</h5>
+              </div>                      
+            </div>
+          </div>
+       </div>
+      </a>
+      <!-- image section end -->
+       <!-- footer section start -->
+        <div class="container-fluid bg-black text-light mt-5">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="footer p-5 ms-4">
+                <h2 class="py-2 fw-bold">MY BAG COLLECTION</h2>
+                <p class="pt-3">100% authentic luxury bags. Worldwide shipping,
+                trusted service, and timeless style.</p>
+                <div class="link text-decoration-none pt-4">
+                  <a href="" class="text-light"><i class="fa-brands fa-facebook-f fs-4"></i></a>
+                  <a href="" class="text-light"><i class="fa-brands fa-tiktok fs-4"></i></a>
+                  <a href="" class="text-light"><i class="fa-brands fa-twitter fs-4"></i></a>
+                  <a href="" class="text-light"><i class="fa-brands fa-instagram fs-4"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <ul class="list-unstyled p-5 ms-5">
+                <li class="fs-3 py-3">Info</li>
+                <li class="py-1">New Arrivals</li>
+                <li class="py-1">Shipping & Payment</li>
+                <li class="py-1">About Us</li>
+                <li class="py-1">Help</li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <ul class="list-unstyled p-5">
+                <li class="fs-3 py-3">Contact</li>
+                <li class="py-1"><i class="fa-solid fa-envelope"></i> mybagcollection@gmail.com</li>
+                <li class="py-1"><i class="fa-solid fa-phone"></i> 09-675187938</li>
+                <li class="py-1"><i class="fa-solid fa-location-dot"></i> Kamaryut , Yangon</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+           
+
+       <!-- footer section end -->
+       
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
