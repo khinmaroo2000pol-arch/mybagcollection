@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <style>
+    /* card section start  */
+    
+    .img2 img{
+        width: 450px;
+        margin: 100px;
+    }
+    .img3 img{
+        width: 400px;
+    }
+    /* card section end */
+
+    .more button{
+        border-radius: 20px;
+        padding: 10px;
+        width: 100px;
+        border: none;
+        background: linear-gradient(to right, #000000, #DFD0B8);
+    }
+    /* footer section start  */
+    .footer{
+        border: 1px solid black;
+        padding: 5px;
+        width: 20rem;
+        border-radius: 15px;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .footer button{
+        background: linear-gradient(to right, #000000, #DFD0B8);
+        width: 70px;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 3px;
+    }
+    .footer input{
+        outline: none;
+        border: none;
+    }
+    #phone{
+        width: 15rem;
+        background: linear-gradient(to right, #000000, #DFD0B8);
+        border-radius: 15px;
+        text-align: center;
+    }
+    .place .footer ::placeholder{
+        color: black;
+    }
+    .place ::placeholder{
+        color: white;
+    }
+    .footertext{
+        background: linear-gradient(to right, #000000, #DFD0B8) ;
+        padding: 7px;
+        width: 50rem;
+        margin: auto;
+    }
+    /* footer section end */
+    .nav{
+        position: sticky;
+        top: 0px;
+        background-color: white;
+    }
+  </style>
+  <body>
+    <!-- nav section start  -->
+    <div class="nav d-flex justify-content-around align-items-center p-3 ">
+        <a href="./index.html" class="text-black"><i class="fa-solid fa-house"></i></a>
+        <h1 class="fw-bold">CHANEL</h1>
+        <a href="./dior.html" class="text-black"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <!-- nav section end -->
+    <!-- card section start -->
+      <div class="container pt-5 mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="img1 text-center">
+                    <img src="./Chanel 19 handbag.webp" alt="" class="border border-black w-75">
+                    <h5 class="pt-3"> Chanel 19 Handbag</h5>
+                    <h4 class="fw-bold"> $ 6,900</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img1 text-center">
+                    <img src="./chanel mini flap bag.webp" alt="" class="border border-black w-75">
+                    <h5 class="pt-3"> Chanel Mini Flap Bag</h5>
+                    <h4 class="fw-bold">  $ 5,700</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img1 text-center">
+                    <img src="./chanel flap bag wth top handle.webp" alt="" class="border border-black w-75">
+                    <h5 class="pt-3"> Chanel Mini Flap bag With Handle</h5>
+                    <h4 class="fw-bold">  $ 6,000</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="img2 text-center d-flex justify-content-center align-items-center">
+                    <div class="div">
+                        <h5 class="p-2"> Chanel 19 Handbag</h5>
+                        <h4 class="fw-bold"> $ 6,900</h4>
+                    </div>
+                    <img src="./Chanel 25 Medium Handbag.webp" alt="" class="border border-black">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="img3 text-center">
+                    <img src="./chanel maxi hobo bag.webp" alt="" class="border border-black">
+                    <h5 class="pt-3"> Chanel Maxi Hobo bag</h5>
+                    <h4 class="fw-bold">$ 6,500</h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="img3 text-center">
+                    <img src="./Chanel 22 mini handbag.webp" alt="" class="border border-black">
+                    <h5 class="pt-3"> Chanel Maxi Hobo bag</h5>
+                    <h4 class="fw-bold">$ 6,500</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5 mt-5">
+            <div class="col-md-4">
+                <div class="img4 text-center">
+                    <img src="./chanel makeup palette minaudiere.webp" alt="" class="border border-black w-75">
+                    <h5 class="pt-3"> MakeUp Palette Minaudiere</h5>
+                    <h4 class="fw-bold">$ 5,800</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img4 text-center">
+                    <img src="./chanel clutch with chain.webp" alt="" class="border border-black w-75">
+                    <h5 class="pt-3">  Clutch With Chain</h5>
+                    <h4 class="fw-bold">  $ 6,000</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img4 text-center">
+                    <img src="./chanel heart bag.webp" alt="" class="border border-black w-75">
+                    <h5 class="pt-3">Heart Bag </h5>
+                    <h4 class="fw-bold">$ 5,500</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="img2 text-center d-flex justify-content-center align-items-center">
+                    <img src="./chanel shopping bag.webp" alt="" class="border border-black">
+                    <div class="div">
+                        <h5 class="p-2"> Chanel 19 Handbag</h5>
+                        <h4 class="fw-bold"> $ 6,900</h4>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- card section end -->
+     <div class="more text-center">
+        <button><a href="" class="text-decoration-none text-light fw-bold">See More</a></button>
+     </div>
+    <!-- footer section start -->
+    <div class="container m-5 p-5">
+        <h1 class="py-5 w-50 ms-5 ps-3 text-center"> MY BAG COLLECTION</h1>
+        <div class="row place d-flex justify-content-around">
+            <div class="col-md-6 footer">
+                <input type="email" name="" placeholder="Enter your email">
+                <button><a href="" class="text-decoration-none text-light">Send</a></button>                    
+            </div>
+            <input type="text" name="" id="phone" placeholder="PH no. 09675187038">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="footertext text-center text-light mt-5">100% authentic luxury bags. Worldwide shipping, trusted service, and timeless style.</h5>
+            </div>
+        </div>
+    </div>
+    <!-- footer section end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
